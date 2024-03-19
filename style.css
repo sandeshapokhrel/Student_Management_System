@@ -1,0 +1,14 @@
+*{
+    padding:0;
+    margin:0;
+}
+nav {
+    position: fixed;
+    background-color: skyblue;
+    height: 70px;
+    width: 100vw;
+    z-index: 1; /* IT WILL SHOW HELP TO SHOW ON TOP */
+}
+.logo {
+
+}
