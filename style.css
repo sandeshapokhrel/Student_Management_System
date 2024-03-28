@@ -1,14 +1,28 @@
-*{
-    padding:0;
-    margin:0;
-}
 nav {
-    position: fixed;
     background-color: skyblue;
+    position: fixed;
+    top: 0; /* Ensure navigation bar sticks to the top */
     height: 70px;
-    width: 100vw;
-    z-index: 1; /* IT WILL SHOW HELP TO SHOW ON TOP */
+    width: 100%;
+    z-index: 1;
 }
-.logo {
 
+.logo {
+    position: relative;
+    left: 5%;
+    height: 50px; /* Adjust height of the logo as needed */
+    width: auto; /* Allow the width to adjust according to the height */
+    top: 10px; /* Adjust vertical position of the logo */
+}
+
+ul {
+    float: right;
+    margin-right: 20px; /* Adjust margin to create space between logo and navigation links */
+    margin-top: 0; /* Remove any default margin */
+}
+
+ul li {
+    display: inline-block;
+    line-height: 70px;
+    margin: 0 5px;
 }
